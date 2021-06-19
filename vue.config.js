@@ -40,6 +40,7 @@ module.exports = {
       '/api': {
         // target: 'http://10.1.18.217:6382', // 源地址
         //target: 'http://175.24.59.243:6382',
+        // target: 'http://10.66.97.212:6382',
         target: 'http://localhost:6382',
         changeOrigin: true,
         pathRewrite: {
