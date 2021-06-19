@@ -20,7 +20,7 @@
           </bm-label>
         </bm-marker>
       </div>
-      <!--多车-->
+      <!--多车test-->
       <div class="device" v-for="device in devices" :key="device.id">
         <bm-marker :position="device.pos" :icon="{url: require('@/icons/svg/marker.png'), size:{width: 50,height:50}}">
           <bm-label
