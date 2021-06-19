@@ -8,7 +8,7 @@
         <!-- <bm-circle :center="circleCenter.pos" :radius="circleCenter.radius" stroke-color="grey" stroke-style="dashed" :editing="false" :stroke-opacity="0.5" :stroke-weight="1" :fillOpacity="0.3"></bm-circle> -->
         <!-- <bm-label :content="circleCenter.id" :position="circleCenter.pos" :labelStyle="{color: 'grey', fontSize : '12px'}"></bm-label> -->
       </div>
-      <!--多目标-->
+      <!--多目标--> <!--test-->
       <div class="target" v-for="target in targets" :key="target.id" >
         <bm-marker :position="target.pos" :icon="{url: require('@/icons/svg/target.png'), size:{width: 50,height:50}}">
           <bm-label
