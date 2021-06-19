@@ -45,6 +45,7 @@ export default {
       targets : [],
       devices : [],
       };
+
   },
 
   mounted(){
